@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   # Defines the root path route ("/")
-  root 'home#index'
+  root "home#index"
 
   # Define API for hotels search
   namespace :api do
-    get 'hotels/search'
+    get "hotels/search"
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
