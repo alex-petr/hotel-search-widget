@@ -1,5 +1,5 @@
-class Api::V1::HotelsController < ApplicationController
-  # GET /api/v1/hotels/search
+class Api::HotelsController < ApplicationController
+  # GET /api/hotels/search
   def search
     Rails.logger.debug "=> search" # TODO: remove debug
 

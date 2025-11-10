@@ -4,9 +4,7 @@ Rails.application.routes.draw do
 
   # Define API for hotels search
   namespace :api do
-    namespace :v1 do
-      get 'hotels/search', to: 'hotels#search'
-    end
+    get 'hotels/search'
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
