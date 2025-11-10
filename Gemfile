@@ -16,6 +16,8 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+# Use Vite in Rails and bring joy to your JavaScript experience https://github.com/ElMassimo/vite_ruby/
+gem "vite_rails"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
